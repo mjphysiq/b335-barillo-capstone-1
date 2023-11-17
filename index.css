@@ -118,9 +118,9 @@ span{
 	color: black;
 	background-color: #009F43;
 	box-shadow: 
-        0 0 20px 10px #fff,    /* inner white */
-        0 0 40px 20px #0f0,    /* middle neon green */
-        0 0 60px 30px #0ff;    /* outer cyan */
+        0 0 20px 5px #fff,    /* inner white */
+        0 0 20px 10px #0f0,    /* middle neon green */
+        0 0 50px 20px #0ff;    /* outer cyan */
 
 }
 
@@ -147,7 +147,7 @@ span{
 	box-shadow: 
         0 0 60px 30px #fff,   /* inner white */
         0 0 100px 60px #0f0,  /* middle neon green */
-        0 0 140px 90px #0ff;  /* outer cyan */
+        0 0 40px 20px #0ff;  /* outer cyan */
 }
 
 /*TOOLS*/
@@ -174,15 +174,22 @@ span{
     0 0 100px 60px #00f,  
     0 0 140px 90px #0ff;  */
 }
+.techStack-box {
+	border-radius: 5%;
+}
+
 .techStack img {
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
+    border-radius: 5%;
+
+
 }
 
 .techStack img:hover {
     box-shadow: 
-        0 0 60px 30px #fff,   /* inner white */
-        0 0 100px 60px #0f0,  /* middle neon green */
-        0 0 140px 90px #0ff;  /* outer cyan */
+        0 0 25px 10px #fff,   /* inner white */
+        0 0 50px 30px #0f0,  /* middle neon green */
+        0 0 40px 15px #0ff;  /* outer cyan */
 }
 
 
@@ -191,7 +198,8 @@ form button:hover,
 form .category input:hover,
 form .category textarea:hover{
 	box-shadow: 
-        0 0 10px 5px #fff,    /* inner white */
-        0 0 20px 10px #0f0,    /* middle neon green */
-        0 0 30px 15px #0ff;    /* outer cyan */
+        0 0 5px 2.5px #fff,    /* inner white */
+        0 0 10px 5px #0f0,    /* middle neon green */
+        0 0 15px 7.5px #0ff;    /* outer cyan */
 }
+
