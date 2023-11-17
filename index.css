@@ -59,12 +59,11 @@ span{
 .nav-item a:hover {
     border-bottom: 1px solid #009F43;
     color: white;
-   	
+}
 
 .navbar-collapse ul li:hover;
 	border-bottom: 1px solid #009F43;
     color: white;
-
 }
 
 
@@ -78,7 +77,22 @@ span{
 }
 
 
+.nav-item a:hover {
+    color: #00FF00; /* Neon green color */
+    text-shadow: 0 0 30px #00FF00, 0 0 40px #00FF00, 0 0 50px #00FF00; /* Adjust the shadow size as needed */
+}
 
+/* Style for the active link */
+.nav-item.active a {
+    color: #00FF00; /* Neon green color */
+    text-shadow: 0 0 20px #00FF00, 0 0 30px #00FF00, 0 0 40px #00FF00; /* Adjust the shadow size as needed */
+}
+
+/* Adjust the alignment of the navbar */
+.navbar {
+	text
+    justify-content: flex-end;
+}
 
 /*font-awesome icons*/
 .instaGram i,
