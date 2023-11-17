@@ -39,23 +39,6 @@ body {
 }
 
 
-.landingPage{
-	margin-top: 20px;
-}
-
-.navBar-landPage-right a {
-	font-size: 20px;
-}
-
-.navBarItem-right{
-	color: #3E3C3C;
-}
-.navBarItem-right:hover{
-	color: #D2D2D2;
-}
-
-
-
 span{
 	text-decoration: underline 2px;
 	text-decoration-color: #009F43;
@@ -70,29 +53,31 @@ span{
 	font-size: 1.2rem;
 }
 
-.navBar-landPage ul li a{
-	text-decoration: none;
-	color: #6B6666;
+
+
+.nav-item .active ,
+.nav-item a:hover {
+    border-bottom: 1px solid #009F43;
+    color: white;
+   	
+
+.navbar-collapse ul li:hover;
+	border-bottom: 1px solid #009F43;
+    color: white;
 
 }
-.navBar-landPage ul li{
+
+
+
+.navBar-root ul li{
 	list-style-type: none;
 	border-bottom: 1px dotted #009F43;
 
 	padding: 0 3rem 0;
-}
-.navBar-landPage{
 
 }
-.navBarItem.active ,
-.navBarItem:hover {
-    border-bottom: 3px solid #009F43;
-   	margin-bottom:3px;
-}
 
-.navBar-landPage ul li a:hover{
-	color: #D2D2D2;
-}
+
 
 
 /*font-awesome icons*/
@@ -117,6 +102,10 @@ span{
 .emAil i:hover{
 	color: black;
 	background-color: #009F43;
+	box-shadow: 
+        0 0 20px 10px #fff,    /* inner white */
+        0 0 40px 20px #0f0,    /* middle neon green */
+        0 0 60px 30px #0ff;    /* outer cyan */
 
 }
 
@@ -127,7 +116,7 @@ span{
 
 /*PROJECTS*/
 .portfolio-Line{
-	border-left: 8px solid green;
+	border-left: 8px solid #009F43;
   	height: 100px;
 }
 
@@ -137,13 +126,57 @@ span{
 	background-size: cover;
 }
 
+.project1 a:hover, 
+.project2 a:hover ,
+.project3 a:hover{
+	box-shadow: 
+        0 0 60px 30px #fff,   /* inner white */
+        0 0 100px 60px #0f0,  /* middle neon green */
+        0 0 140px 90px #0ff;  /* outer cyan */
+}
+
 /*TOOLS*/
 .tools-Line{
-	border-left: 8px solid green;
+	border-left: 8px solid #009F43;
   	height: 100px;
 }
-.techStack{
-	background-color: yellow;
-  	border: 1px solid black;
-  	border-radius: 20px;
+
+.techStack img{
+	box-shadow: rgba(0, 0, 0, 0.50) 0px 54px 55px, rgba(0, 0, 0, 0.50) 0px -12px 30px, rgba(0, 0, 0, 0.50) 0px 4px 6px, rgba(0, 0, 0, 0.75) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+/*.techStack img:hover{
+	box-shadow: 0 0 60px 30px #fff, 
+    0 0 100px 60px #f0f, 
+    0 0 140px 90px #0ff; 
+
+    /*box-shadow: 0 0 30px 15px #fff,  
+    0 0 50px 30px #f0f, 
+    0 0 40px 45px #0ff;*/
+
+    /*box-shadow: 
+    0 0 60px 30px #fff,   
+    0 0 100px 60px #00f,  
+    0 0 140px 90px #0ff;  */
+}
+.techStack img {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.techStack img:hover {
+    box-shadow: 
+        0 0 60px 30px #fff,   /* inner white */
+        0 0 100px 60px #0f0,  /* middle neon green */
+        0 0 140px 90px #0ff;  /* outer cyan */
+}
+
+
+/*form*/
+form button:hover,
+form .category input:hover,
+form .category textarea:hover{
+	box-shadow: 
+        0 0 10px 5px #fff,    /* inner white */
+        0 0 20px 10px #0f0,    /* middle neon green */
+        0 0 30px 15px #0ff;    /* outer cyan */
 }
