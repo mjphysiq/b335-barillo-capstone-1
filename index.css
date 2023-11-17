@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    
+    text-align: center;
+    background-blend-mode: multiply;
+    background-image: url('./images/pageBg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #CBCBCB;
+}
+
+
+
+
+
+@media (min-width: 766px) {
+    /*.socMed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .socMed a {
+        margin: 0; /* Remove any margin */
+    }
+
+    .imgSelf img{
+    	
+    	margin-top: 20px;
+    	
+    }
+}
+
+
+.landingPage{
+	margin-top: 20px;
+}
+
+.navBar-landPage-right a {
+	font-size: 20px;
+}
+
+.navBarItem-right{
+	color: #3E3C3C;
+}
+.navBarItem-right:hover{
+	color: #D2D2D2;
+}
+
+
+
+span{
+	text-decoration: underline 2px;
+	text-decoration-color: #009F43;
+	text-underline-offset: 5px;
+}
+
+.myName{
+	color: #CBCBCB;
+}
+.aboutMe{
+	color: #6B6666;
+	font-size: 1.2rem;
+}
+
+.navBar-landPage ul li a{
+	text-decoration: none;
+	color: #6B6666;
+
+}
+.navBar-landPage ul li{
+	list-style-type: none;
+	border-bottom: 1px dotted #009F43;
+
+	padding: 0 3rem 0;
+}
+.navBar-landPage{
+
+}
+.navBarItem.active ,
+.navBarItem:hover {
+    border-bottom: 3px solid #009F43;
+   	margin-bottom:3px;
+}
+
+.navBar-landPage ul li a:hover{
+	color: #D2D2D2;
+}
+
+
+/*font-awesome icons*/
+.instaGram i,
+.linkedIn i,
+.gitHub i,
+.whatsApp i,
+.skYpe i,
+.emAil i{
+	color: white;
+	background-color: #2A2A2A;
+	padding: 15px;
+	border-radius: 50%;
+	font-size: 20px
+}
+
+.instaGram i:hover,
+.linkedIn i:hover,
+.gitHub i:hover,
+.whatsApp i:hover,
+.skYpe i:hover,
+.emAil i:hover{
+	color: black;
+	background-color: #009F43;
+
+}
+
+.socMed a{
+	padding: 1rem 0 5rem 0;
+}
+
+
+/*PROJECTS*/
+.portfolio-Line{
+	border-left: 8px solid green;
+  	height: 100px;
+}
+
+.projects{
+	background-image: url("https://images.pexels.com/photos/9668535/pexels-photo-9668535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*TOOLS*/
+.tools-Line{
+	border-left: 8px solid green;
+  	height: 100px;
+}
+.techStack{
+	background-color: yellow;
+  	border: 1px solid black;
+  	border-radius: 20px;
+}

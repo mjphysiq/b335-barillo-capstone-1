@@ -1,0 +1,59 @@
+
+/*FONTS:
+font-family: 'Arimo', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+.font1{
+	/*Space Grotesk*/
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+.font2{
+	/*Roboto*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+.font3{
+	/*Krona One for titles*/
+	font-family: 'Krona One', sans-serif;
+	letter-spacing: 5px;
+	font-size: 2rem;
+}
+
+.font4{
+	font-family: 'Rubik', sans-serif;
+	font-size: 3rem;
+	font-weight: 700;
+	font-style: italic;
+}
+.font-p1{
+	/*Roboto*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 100;
+}
+
+.font-p2{
+	/*Krona One for titles*/
+	font-family: 'Krona One', sans-serif;
+	font-size: 1rem;
+	
+}
+
+
+
+.color1{
+	color: #CBCBCB;
+}
+.color2{
+	color: #7C7C7C;	
+}
