@@ -144,8 +144,8 @@ span{
 .project1 a,
 .project2 a,
 .project3 a{
-    -webkit-filter: blur(3px);
-    filter: blur(3px);
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
