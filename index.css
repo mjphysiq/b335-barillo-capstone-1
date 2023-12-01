@@ -97,7 +97,7 @@ body {
 }
 
 .letsConnect{
-    font-weight: 900px;
+    font-weight: 900px !important;
 }
 
 /*font-awesome icons*/
