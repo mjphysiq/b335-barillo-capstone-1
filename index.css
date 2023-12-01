@@ -14,7 +14,8 @@ body {
     background-repeat: no-repeat;
     
     overflow-x: hidden;
-}
+
+
 
 
 
@@ -93,6 +94,10 @@ body {
 .navbar {
 	text
     justify-content: flex-end;
+}
+
+.letsConnect{
+    font-weight: 900px;
 }
 
 /*font-awesome icons*/
