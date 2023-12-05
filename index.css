@@ -14,10 +14,23 @@ body {
     background-repeat: no-repeat;
     
     overflow-x: hidden;
+}
 
 
+@media (max-width: 991px){
+    .navbar{
+        margin-bottom: -50px;
+    }
+    .landingPage{
+        margin-bottom: -45px;
+    }
+}
 
-
+@media (max-width: 767px){
+    .landingPage{
+        margin-bottom: 0px;
+    }
+}
 
 
 
@@ -30,8 +43,8 @@ body {
     }
 
     .socMed a {
-        margin: 0; /* Remove any margin */
-    }
+        margin: 0; /* Remove any margin 
+    }*/
 
     .imgSelf img{
     	
@@ -39,6 +52,7 @@ body {
     	
     }
 }
+
 
 
 .myName{
@@ -66,7 +80,7 @@ body {
 .navbar-collapse ul li:hover;
 	border-bottom: 1px solid #009F43;
     color: white;
-}
+}//
 
 
 
@@ -96,8 +110,11 @@ body {
     justify-content: flex-end;
 }
 
-.letsConnect{
-    font-weight: 900px !important;
+
+.let-connect{
+    border-bottom: 2px solid #013617;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 /*font-awesome icons*/
@@ -130,7 +147,7 @@ body {
 }
 
 .socMed a{
-	padding: 1rem 0 5rem 0;
+	padding: .5rem 0 5rem 0;
 }
 
 
@@ -146,14 +163,14 @@ body {
 	background-size: cover;
 }
 
-/*.project1 a,
+.project1 a,
 .project2 a,
 .project3 a{
     -webkit-filter: blur(1px);
     filter: blur(1px);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-}*/
+}
 
 .project1:hover a, 
 .project2:hover a,
@@ -162,8 +179,8 @@ body {
         0 0 60px 30px #fff,   /* inner white */
         0 0 100px 60px #0f0,  /* middle neon green */
         0 0 40px 20px #0ff;  /* outer cyan */
-    /*-webkit-filter: blur(0);
-    filter: blur(0);*/
+    -webkit-filter: blur(0);
+    filter: blur(0);
 }
 
 
